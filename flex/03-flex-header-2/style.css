@@ -8,10 +8,29 @@ body {
   font-family: Besley, serif;
 }
 
+.sides{
+  border: red 1px solid;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.left {
+  display: flex;
+  justify-self: flex-start;
+}
+
+.right {
+  display: flex;
+  justify-self: flex-end;
+}
+
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
 }
 
 .profile-image {
@@ -27,6 +46,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+
 }
 
 button {
@@ -35,6 +55,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+
 }
 
 a {
@@ -45,4 +66,7 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+ gap: 8px;
 }
